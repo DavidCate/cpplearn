@@ -4,4 +4,4 @@ project(cpplearn)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(cpplearn src/main.cpp)
+add_executable(cpplearn src/main.cpp src/ch1/myfirst.cpp)
