@@ -86,6 +86,23 @@ int main() {
     //wchar_t无法使用cout  需要wcout和wcin
     wchar_t bob = L'X';
     wcout << bob << endl;
+
+
+
+    //bool类型 c++新支持来 bool类型  c并不支持
+    //通常用 1表示true 0表示false
+    bool bbb= true;
+    int iii=true;
+    cout<< bbb<<endl;
+    cout<<iii<<endl;
+
+    //任何非0值都被转换为true 值转为1  0值为false
+    bool bbbb=-23414;
+    bool bbbbb=0;
+    cout<<bbbb<<endl;
+    cout<<bbbbb<<endl;
+
+
     return 0;
 }
 
